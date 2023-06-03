@@ -1,5 +1,4 @@
-module "files" {
-  source  = "./modules/files"
-  content = "Teszt"
-  name    = "Teszt name"
+module "task2" {
+  source    = "./modules/read"
+  fileCount = 7
 }
