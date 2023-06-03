@@ -1,2 +1,3 @@
 # MUJLMF
- 
+
+Felhőalapú számítástechnika beadandó
