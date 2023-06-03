@@ -1,0 +1,5 @@
+answer1 = "init"
+answer2 = "tuple"
+answer3 = "while"
+answer4 = "using meta-argument"
+answer5 = "variable's default value"
