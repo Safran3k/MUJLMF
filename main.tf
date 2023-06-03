@@ -11,3 +11,9 @@ module "task3" {
   answer4 = var.answer4
   answer5 = var.answer5
 }
+
+module "task4" {
+  source     = "./modules/data"
+  path       = module.task2.first_file_name
+  depends_on = [module.task2]
+}

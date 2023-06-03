@@ -21,3 +21,7 @@ output "fourth_answer" {
 output "fifth_answer" {
   value = module.task3.fifth_answer
 }
+
+output "task4Output" {
+  value = module.task4.fileId
+}
